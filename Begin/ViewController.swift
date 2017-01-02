@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         if hello.text == "Hello!" {
             hello.text = "Hai!"
         } else {
-            hello.text = "Hello!"
+            hello.text = "Hai!"
         }
                
    }
