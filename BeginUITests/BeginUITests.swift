@@ -27,196 +27,27 @@ class BeginUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        sleep(2)
-        let app = XCUIApplication()
-        let firstLabel = app.staticTexts.element(boundBy: 0)
-        let button = app.buttons["Button"]
-        XCTAssert(button.exists)
-        XCTAssert(firstLabel.exists)
-        button.tap()
-        let changedLabel = app.staticTexts.element(boundBy: 0)
-        expectation(for: NSPredicate(format: "label == 'Hello!'"), evaluatedWith: changedLabel, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
-        XCTAssertEqual(changedLabel.label, "Hello!")
-        
-    }
+//    func testExample() {
+//        // Use recording to get started writing UI tests.
+//        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//        sleep(2)
+//        let app = XCUIApplication()
+//        let firstLabel = app.staticTexts.element(boundBy: 0)
+//        let button = app.buttons["Button"]
+//        XCTAssert(button.exists)
+//        XCTAssert(firstLabel.exists)
+//        button.tap()
+//        let changedLabel = app.staticTexts.element(boundBy: 0)
+//        expectation(for: NSPredicate(format: "label == 'Hello!'"), evaluatedWith: changedLabel, handler: nil)
+//        waitForExpectations(timeout: 5, handler: nil)
+//        XCTAssertEqual(changedLabel.label, "Hello!")
+//        
+//    }
 
     func testButtonPress1() {
         
         let app = XCUIApplication()
         let button = app.buttons["Button"]
         button.tap()
-
     }
-    
-    func testButtonPress2() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    func testButtonPress3() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    func testButtonPress4() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-
-    func testButtonPress5() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    func testButtonPress6() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress7() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress8() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress9() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress10() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress11() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress12() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress13() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress14() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress15() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress16() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress17() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress18() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress19() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
-    func testButtonPress20() {
-        
-        let app = XCUIApplication()
-        let button = app.buttons["Button"]
-        button.tap()
-        
-    }
-    
-    
 }
